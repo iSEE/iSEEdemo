@@ -1,0 +1,16 @@
+url: https://iSEE.github.io/iSEEdemo
+
+template:
+  params:
+    bootswatch: flatly
+    #ganalytics: UA-99999999-9
+
+home:
+  title: "iSEEdemo"
+  type: inverse
+
+
+navbar:
+  right:
+   - icon: fa-github
+     href: https://github.com/iSEE/iSEEdemo
