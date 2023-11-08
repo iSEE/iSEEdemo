@@ -1,0 +1,47 @@
+Package: iSEEdemo
+Title: iSEE package demo for the CZI annual meeting
+Version: 1.0.0
+Authors@R: 
+    c(person(given = "Federico",
+             family = "Marini",
+             role = c("aut", "cre"),
+             email = "marinif@uni-mainz.de",
+             comment = c(ORCID = "0000-0003-3252-7758")),
+      person(given = "Charlotte",
+             family = "Soneson",
+             role = "aut",
+             email = "charlottesoneson@gmail.com",
+             comment = c(ORCID = "0000-0003-3833-2169")),
+      person(given = "Kevin",
+             family = "Rue-Albrecht",
+             role = "aut",
+             email = "kevinrue67@gmail.com",
+             comment = c(ORCID = "0000-0003-3899-3872"))
+     )
+Description: This package provides the material for the iSEE package demo at
+    the CZI Annual Meeting.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    Biobase
+Imports: 
+    iSEE,
+    SingleCellExperiment,
+    scater
+Suggests: 
+    knitr,
+    rmarkdown,
+    pkgdown,
+    TENxPBMCData,
+    Seurat,
+    zellkonverter,
+    scran,
+    Biocsingular,
+    BiocStyle
+URL: https://iSEE.github.io/iSEEdemo/
+BugReports: https://github.com/iSEE/iSEEdemo/issues/new/choose
+VignetteBuilder: knitr
+DockerImage: ghcr.io/iseedevelopers/iSEEdemo:latest
