@@ -39,7 +39,7 @@ Suggests:
     Seurat,
     zellkonverter,
     scran,
-    Biocsingular,
+    BiocSingular,
     BiocStyle
 URL: https://iSEE.github.io/iSEEdemo/
 BugReports: https://github.com/iSEE/iSEEdemo/issues/new/choose
