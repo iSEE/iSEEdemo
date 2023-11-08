@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+inst/datasets/anndata_pbmc3k.h5ad
+inst/datasets/seurat_pbmc3k.RDS
