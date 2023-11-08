@@ -2,3 +2,5 @@
 ^\.github$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+Dockerfile
+_pkgdown.yml
