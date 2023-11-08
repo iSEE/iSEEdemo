@@ -111,7 +111,7 @@ Next, we apply Principal Components Analysis (PCA) and t-distributed Stochastic 
 These low-dimensional representations are added to the `reducedDim` slot of the `SingleCellExperiment` object.
 
 ```{r, message=FALSE}
-library(BiocSingular)
+library("BiocSingular")
 set.seed(1000)
 sce <- scran::denoisePCA(sce, technical = dec)
 ncol(reducedDim(sce, "PCA"))
