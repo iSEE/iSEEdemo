@@ -25,8 +25,6 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Depends: 
-    Biobase
 Imports: 
     iSEE,
     SingleCellExperiment,
@@ -40,6 +38,11 @@ Suggests:
     zellkonverter,
     scran,
     BiocSingular,
+    iSEEu,
+    iSEEde,
+    iSEEpathways, 
+    iSEEhub,
+    iSEEindex,
     BiocStyle
 URL: https://iSEE.github.io/iSEEdemo/
 BugReports: https://github.com/iSEE/iSEEdemo/issues/new/choose
