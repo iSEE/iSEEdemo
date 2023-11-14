@@ -6,3 +6,6 @@ Dockerfile
 _pkgdown.yml
 ^inst/datasets/anndata_pbmc3k.h5ad
 ^inst/datasets/seurat_pbmc3k.RDS
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

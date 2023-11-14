@@ -2,7 +2,7 @@ url: https://iSEE.github.io/iSEEdemo
 
 template:
   params:
-    bootswatch: flatly
+    bootswatch: cosmo
     #ganalytics: UA-99999999-9
 
 home:
